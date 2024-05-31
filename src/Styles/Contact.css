@@ -1,0 +1,79 @@
+.contact-container {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-form {
+    max-width: 600px;
+    width: 100%;
+    background-color: #ecaeae;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-email {
+    color: #888;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    background-color: #ebe8e8;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    color: #0a0a0a;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-icons a:hover {
+    color: #00f;
+    /* Change to your desired color */
+}
+
+.contact-container {
+    background-color: #f9f9f9;
+    /* Set your desired background color */
+    background-image: url('../images/bg3.jpg');
+    /* Set your background image path */
+    background-size: cover;
+    /* Ensure the image covers the entire container */
+    background-position: center;
+    /* Center the background image */
+    padding: 20px;
+    /* Adjust padding as needed */
+    /* Add other styling as required */
+}
